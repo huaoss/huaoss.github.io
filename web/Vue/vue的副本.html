@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>vue | 不如养猪</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.0b8634a2.css" as="style"><link rel="preload" href="/assets/js/app.96f492b1.js" as="script"><link rel="preload" href="/assets/js/2.66dbf3eb.js" as="script"><link rel="preload" href="/assets/js/84.90051029.js" as="script"><link rel="prefetch" href="/assets/js/10.29f35ee1.js"><link rel="prefetch" href="/assets/js/11.265a6d83.js"><link rel="prefetch" href="/assets/js/12.be3ad4a5.js"><link rel="prefetch" href="/assets/js/13.92825de4.js"><link rel="prefetch" href="/assets/js/14.801fed1f.js"><link rel="prefetch" href="/assets/js/15.ed44d404.js"><link rel="prefetch" href="/assets/js/16.894e4eae.js"><link rel="prefetch" href="/assets/js/17.f5c6a610.js"><link rel="prefetch" href="/assets/js/18.ecfaa16e.js"><link rel="prefetch" href="/assets/js/19.5a41308e.js"><link rel="prefetch" href="/assets/js/20.7b19bdfa.js"><link rel="prefetch" href="/assets/js/21.dba67286.js"><link rel="prefetch" href="/assets/js/22.8dbfba93.js"><link rel="prefetch" href="/assets/js/23.e6637faa.js"><link rel="prefetch" href="/assets/js/24.b8596bb4.js"><link rel="prefetch" href="/assets/js/25.6b124fb9.js"><link rel="prefetch" href="/assets/js/26.c9eed934.js"><link rel="prefetch" href="/assets/js/27.4db09e73.js"><link rel="prefetch" href="/assets/js/28.fd29e2ec.js"><link rel="prefetch" href="/assets/js/29.ed83544c.js"><link rel="prefetch" href="/assets/js/3.2a78f869.js"><link rel="prefetch" href="/assets/js/30.c6110f5e.js"><link rel="prefetch" href="/assets/js/31.04acb7c8.js"><link rel="prefetch" href="/assets/js/32.d8a706e5.js"><link rel="prefetch" href="/assets/js/33.c9dd757f.js"><link rel="prefetch" href="/assets/js/34.001c9f7a.js"><link rel="prefetch" href="/assets/js/35.70c8320f.js"><link rel="prefetch" href="/assets/js/36.b701bd48.js"><link rel="prefetch" href="/assets/js/37.c5535bd6.js"><link rel="prefetch" href="/assets/js/38.6c023ef6.js"><link rel="prefetch" href="/assets/js/39.3fbb634a.js"><link rel="prefetch" href="/assets/js/4.3a260b89.js"><link rel="prefetch" href="/assets/js/40.68119849.js"><link rel="prefetch" href="/assets/js/41.d1c8b647.js"><link rel="prefetch" href="/assets/js/42.f18871c4.js"><link rel="prefetch" href="/assets/js/43.0f481eb4.js"><link rel="prefetch" href="/assets/js/44.c723d660.js"><link rel="prefetch" href="/assets/js/45.a243f97b.js"><link rel="prefetch" href="/assets/js/46.bae1b2fa.js"><link rel="prefetch" href="/assets/js/47.a6939650.js"><link rel="prefetch" href="/assets/js/48.0a6e0b40.js"><link rel="prefetch" href="/assets/js/49.d78d4878.js"><link rel="prefetch" href="/assets/js/5.e5b70a6f.js"><link rel="prefetch" href="/assets/js/50.c2207988.js"><link rel="prefetch" href="/assets/js/51.c02e92cb.js"><link rel="prefetch" href="/assets/js/52.0da5c049.js"><link rel="prefetch" href="/assets/js/53.a9afe79c.js"><link rel="prefetch" href="/assets/js/54.4869ff1d.js"><link rel="prefetch" href="/assets/js/55.02ee6751.js"><link rel="prefetch" href="/assets/js/56.2ce11524.js"><link rel="prefetch" href="/assets/js/57.af71702c.js"><link rel="prefetch" href="/assets/js/58.7f2c8116.js"><link rel="prefetch" href="/assets/js/59.dfc4c11f.js"><link rel="prefetch" href="/assets/js/6.461cca72.js"><link rel="prefetch" href="/assets/js/60.1eb3781f.js"><link rel="prefetch" href="/assets/js/61.d3a8cc67.js"><link rel="prefetch" href="/assets/js/62.080d1a45.js"><link rel="prefetch" href="/assets/js/63.d1104465.js"><link rel="prefetch" href="/assets/js/64.b8bdfa5b.js"><link rel="prefetch" href="/assets/js/65.5ceabc31.js"><link rel="prefetch" href="/assets/js/66.941ccb5a.js"><link rel="prefetch" href="/assets/js/67.fb3ea3af.js"><link rel="prefetch" href="/assets/js/68.60526390.js"><link rel="prefetch" href="/assets/js/69.a72d14b7.js"><link rel="prefetch" href="/assets/js/7.0393c72b.js"><link rel="prefetch" href="/assets/js/70.7b078821.js"><link rel="prefetch" href="/assets/js/71.f6987480.js"><link rel="prefetch" href="/assets/js/72.80c80aef.js"><link rel="prefetch" href="/assets/js/73.76e06b0f.js"><link rel="prefetch" href="/assets/js/74.4d42b931.js"><link rel="prefetch" href="/assets/js/75.c395c5e0.js"><link rel="prefetch" href="/assets/js/76.06cb3e1a.js"><link rel="prefetch" href="/assets/js/77.2bd145e2.js"><link rel="prefetch" href="/assets/js/78.58a36614.js"><link rel="prefetch" href="/assets/js/79.5cdab7d4.js"><link rel="prefetch" href="/assets/js/8.6da1df49.js"><link rel="prefetch" href="/assets/js/80.a73c2043.js"><link rel="prefetch" href="/assets/js/81.09ccdb1d.js"><link rel="prefetch" href="/assets/js/82.1a2e6378.js"><link rel="prefetch" href="/assets/js/83.02c5c0da.js"><link rel="prefetch" href="/assets/js/85.60fd9612.js"><link rel="prefetch" href="/assets/js/9.c10387fb.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.0b8634a2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">不如养猪</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/web/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/serve/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/ops/" class="nav-link">
+  运维
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="读书" class="dropdown-title"><span class="title">读书</span> <span class="arrow down"></span></button> <button type="button" aria-label="读书" class="mobile-dropdown-title"><span class="title">读书</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/book1/" class="nav-link">
+  JavaScript精粹
+</a></li><li class="dropdown-item"><!----> <a href="/web/Vue/.html" class="nav-link">
+  Java Head First
+</a></li><li class="dropdown-item"><!----> <a href="/web/Vue/.html" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/web/Vue/.html" class="nav-link">
+  计算机原理
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/web/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/serve/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/ops/" class="nav-link">
+  运维
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="读书" class="dropdown-title"><span class="title">读书</span> <span class="arrow down"></span></button> <button type="button" aria-label="读书" class="mobile-dropdown-title"><span class="title">读书</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/book1/" class="nav-link">
+  JavaScript精粹
+</a></li><li class="dropdown-item"><!----> <a href="/web/Vue/.html" class="nav-link">
+  Java Head First
+</a></li><li class="dropdown-item"><!----> <a href="/web/Vue/.html" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/web/Vue/.html" class="nav-link">
+  计算机原理
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span> JavaScript</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/web/JavaScript/js-cookie.html" class="sidebar-link">js-cookie</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="vue"><a href="#vue" class="header-anchor">#</a> vue</h1> <h3 id="vue-cli3的eslint配置"><a href="#vue-cli3的eslint配置" class="header-anchor">#</a> vue-cli3的eslint配置</h3> <ol><li>关闭eslint</li></ol> <p>直接注释掉package.json文件中eslint的配置就可以了（以下是vue-cli的默认配置）</p> <div class="language- extra-class"><pre class="language-text"><code>  &quot;eslintConfig&quot;: {
+     &quot;root&quot;: true,////此项是用来告诉eslint找当前配置文件不能往父级查找
+     &quot;env&quot;: {
+       &quot;node&quot;: true//此项指定环境的全局变量，下面的配置指定为node环境
+     },
+     &quot;extends&quot;: [// 此项是用来配置vue.js风格，就是说写代码的时候要规范的写，如果你使用vs-code我觉得应该可以避免出错
+       &quot;plugin:vue/essential&quot;,
+       &quot;@vue/standard&quot;
+     ],
+     &quot;rules&quot;: {//规则配置写在这里
+       &quot;indent&quot;: [1, 4]
+     },
+     &quot;parserOptions&quot;: {
+       &quot;parser&quot;: &quot;babel-eslint&quot;//此项是用来指定eslint解析器的，解析器必须符合规则，babel-eslint解析器是对babel解析器的包装使其与ESLint解析
+     }
+   },
+</code></pre></div><p>或者vue.config.js中将以下三项设置为false</p> <div class="language- extra-class"><pre class="language-text"><code>    devServer: {
+        overlay: {
+            warnings: false,
+            errors: false
+        },
+        lintOnSave: false
+    }
+</code></pre></div><ol start="2"><li>修改eslint的语法检测，文件为根目录下的 package.json文件（规则写在rules内）</li></ol> <p>格式：</p> <div class="language- extra-class"><pre class="language-text"><code>rules: {
+    &quot;规则名&quot;: [规则值, 规则配置]
+}
+</code></pre></div><p>规则值：</p> <div class="language- extra-class"><pre class="language-text"><code>&quot;off&quot;或者0    //关闭规则关闭
+&quot;warn&quot;或者1    //在打开的规则作为警告（不影响退出代码）
+&quot;error&quot;或者2    //把规则作为一个错误（退出代码触发时为1）
+</code></pre></div><ol start="3"><li>eslint 规则配置参数</li></ol> <div class="language- extra-class"><pre class="language-text"><code>&quot;no-alert&quot;: 0,//禁止使用alert confirm prompt
+&quot;no-array-constructor&quot;: 2,//禁止使用数组构造器
+&quot;no-bitwise&quot;: 0,//禁止使用按位运算符
+&quot;no-caller&quot;: 1,//禁止使用arguments.caller或arguments.callee
+&quot;no-catch-shadow&quot;: 2,//禁止catch子句参数与外部作用域变量同名
+&quot;no-class-assign&quot;: 2,//禁止给类赋值
+&quot;no-cond-assign&quot;: 2,//禁止在条件表达式中使用赋值语句
+&quot;no-console&quot;: 2,//禁止使用console
+&quot;no-const-assign&quot;: 2,//禁止修改const声明的变量
+&quot;no-constant-condition&quot;: 2,//禁止在条件中使用常量表达式 if(true) if(1)
+&quot;no-continue&quot;: 0,//禁止使用continue
+&quot;no-control-regex&quot;: 2,//禁止在正则表达式中使用控制字符
+&quot;no-debugger&quot;: 2,//禁止使用debugger
+&quot;no-delete-var&quot;: 2,//不能对var声明的变量使用delete操作符
+&quot;no-div-regex&quot;: 1,//不能使用看起来像除法的正则表达式/=foo/
+&quot;no-dupe-keys&quot;: 2,//在创建对象字面量时不允许键重复 {a:1,a:1}
+&quot;no-dupe-args&quot;: 2,//函数参数不能重复
+&quot;no-duplicate-case&quot;: 2,//switch中的case标签不能重复
+&quot;no-else-return&quot;: 2,//如果if语句里面有return,后面不能跟else语句
+&quot;no-empty&quot;: 2,//块语句中的内容不能为空
+&quot;no-empty-character-class&quot;: 2,//正则表达式中的[]内容不能为空
+&quot;no-empty-label&quot;: 2,//禁止使用空label
+&quot;no-eq-null&quot;: 2,//禁止对null使用==或!=运算符
+&quot;no-eval&quot;: 1,//禁止使用eval
+&quot;no-ex-assign&quot;: 2,//禁止给catch语句中的异常参数赋值
+&quot;no-extend-native&quot;: 2,//禁止扩展native对象
+&quot;no-extra-bind&quot;: 2,//禁止不必要的函数绑定
+&quot;no-extra-boolean-cast&quot;: 2,//禁止不必要的bool转换
+&quot;no-extra-parens&quot;: 2,//禁止非必要的括号
+&quot;no-extra-semi&quot;: 2,//禁止多余的冒号
+&quot;no-fallthrough&quot;: 1,//禁止switch穿透
+&quot;no-floating-decimal&quot;: 2,//禁止省略浮点数中的0 .5 3.
+&quot;no-func-assign&quot;: 2,//禁止重复的函数声明
+&quot;no-implicit-coercion&quot;: 1,//禁止隐式转换
+&quot;no-implied-eval&quot;: 2,//禁止使用隐式eval
+&quot;no-inline-comments&quot;: 0,//禁止行内备注
+&quot;no-inner-declarations&quot;: [2, &quot;functions&quot;],//禁止在块语句中使用声明（变量或函数）
+&quot;no-invalid-regexp&quot;: 2,//禁止无效的正则表达式
+&quot;no-invalid-this&quot;: 2,//禁止无效的this，只能用在构造器，类，对象字面量
+&quot;no-irregular-whitespace&quot;: 2,//不能有不规则的空格
+&quot;no-iterator&quot;: 2,//禁止使用__iterator__ 属性
+&quot;no-label-var&quot;: 2,//label名不能与var声明的变量名相同
+&quot;no-labels&quot;: 2,//禁止标签声明
+&quot;no-lone-blocks&quot;: 2,//禁止不必要的嵌套块
+&quot;no-lonely-if&quot;: 2,//禁止else语句内只有if语句
+&quot;no-loop-func&quot;: 1,//禁止在循环中使用函数（如果没有引用外部变量不形成闭包就可以）
+&quot;no-mixed-requires&quot;: [0, false],//声明时不能混用声明类型
+&quot;no-mixed-spaces-and-tabs&quot;: [2, false],//禁止混用tab和空格
+&quot;linebreak-style&quot;: [0, &quot;windows&quot;],//换行风格
+&quot;no-multi-spaces&quot;: 1,//不能用多余的空格
+&quot;no-multi-str&quot;: 2,//字符串不能用\换行
+&quot;no-multiple-empty-lines&quot;: [1, {&quot;max&quot;: 2}],//空行最多不能超过2行
+&quot;no-native-reassign&quot;: 2,//不能重写native对象
+&quot;no-negated-in-lhs&quot;: 2,//in 操作符的左边不能有!
+&quot;no-nested-ternary&quot;: 0,//禁止使用嵌套的三目运算
+&quot;no-new&quot;: 1,//禁止在使用new构造一个实例后不赋值
+&quot;no-new-func&quot;: 1,//禁止使用new Function
+&quot;no-new-object&quot;: 2,//禁止使用new Object()
+&quot;no-new-require&quot;: 2,//禁止使用new require
+&quot;no-new-wrappers&quot;: 2,//禁止使用new创建包装实例，new String new Boolean new Number
+&quot;no-obj-calls&quot;: 2,//不能调用内置的全局对象，比如Math() JSON()
+&quot;no-octal&quot;: 2,//禁止使用八进制数字
+&quot;no-octal-escape&quot;: 2,//禁止使用八进制转义序列
+&quot;no-param-reassign&quot;: 2,//禁止给参数重新赋值
+&quot;no-path-concat&quot;: 0,//node中不能使用__dirname或__filename做路径拼接
+&quot;no-plusplus&quot;: 0,//禁止使用++，--
+&quot;no-process-env&quot;: 0,//禁止使用process.env
+&quot;no-process-exit&quot;: 0,//禁止使用process.exit()
+&quot;no-proto&quot;: 2,//禁止使用__proto__属性
+&quot;no-redeclare&quot;: 2,//禁止重复声明变量
+&quot;no-regex-spaces&quot;: 2,//禁止在正则表达式字面量中使用多个空格 /foo bar/
+&quot;no-restricted-modules&quot;: 0,//如果禁用了指定模块，使用就会报错
+&quot;no-return-assign&quot;: 1,//return 语句中不能有赋值表达式
+&quot;no-script-url&quot;: 0,//禁止使用javascript:void(0)
+&quot;no-self-compare&quot;: 2,//不能比较自身
+&quot;no-sequences&quot;: 0,//禁止使用逗号运算符
+&quot;no-shadow&quot;: 2,//外部作用域中的变量不能与它所包含的作用域中的变量或参数同名
+&quot;no-shadow-restricted-names&quot;: 2,//严格模式中规定的限制标识符不能作为声明时的变量名使用
+&quot;no-spaced-func&quot;: 2,//函数调用时 函数名与()之间不能有空格
+&quot;no-sparse-arrays&quot;: 2,//禁止稀疏数组， [1,,2]
+&quot;no-sync&quot;: 0,//nodejs 禁止同步方法
+&quot;no-ternary&quot;: 0,//禁止使用三目运算符
+&quot;no-trailing-spaces&quot;: 1,//一行结束后面不要有空格
+&quot;no-this-before-super&quot;: 0,//在调用super()之前不能使用this或super
+&quot;no-throw-literal&quot;: 2,//禁止抛出字面量错误 throw &quot;error&quot;;
+&quot;no-undef&quot;: 1,//不能有未定义的变量
+&quot;no-undef-init&quot;: 2,//变量初始化时不能直接给它赋值为undefined
+&quot;no-undefined&quot;: 2,//不能使用undefined
+&quot;no-unexpected-multiline&quot;: 2,//避免多行表达式
+&quot;no-underscore-dangle&quot;: 1,//标识符不能以_开头或结尾
+&quot;no-unneeded-ternary&quot;: 2,//禁止不必要的嵌套 var isYes = answer === 1 ? true : false;
+&quot;no-unreachable&quot;: 2,//不能有无法执行的代码
+&quot;no-unused-expressions&quot;: 2,//禁止无用的表达式
+&quot;no-unused-vars&quot;: [2, {&quot;vars&quot;: &quot;all&quot;, &quot;args&quot;: &quot;after-used&quot;}],//不能有声明后未被使用的变量或参数
+&quot;no-use-before-define&quot;: 2,//未定义前不能使用
+&quot;no-useless-call&quot;: 2,//禁止不必要的call和apply
+&quot;no-void&quot;: 2,//禁用void操作符
+&quot;no-var&quot;: 0,//禁用var，用let和const代替
+&quot;no-warning-comments&quot;: [1, { &quot;terms&quot;: [&quot;todo&quot;, &quot;fixme&quot;, &quot;xxx&quot;], &quot;location&quot;: &quot;start&quot; }],//不能有警告备注
+&quot;no-with&quot;: 2,//禁用with
+
+&quot;array-bracket-spacing&quot;: [2, &quot;never&quot;],//是否允许非空数组里面有多余的空格
+&quot;arrow-parens&quot;: 0,//箭头函数用小括号括起来
+&quot;arrow-spacing&quot;: 0,//=&gt;的前/后括号
+&quot;accessor-pairs&quot;: 0,//在对象中使用getter/setter
+&quot;block-scoped-var&quot;: 0,//块语句中使用var
+&quot;brace-style&quot;: [1, &quot;1tbs&quot;],//大括号风格
+&quot;callback-return&quot;: 1,//避免多次调用回调什么的
+&quot;camelcase&quot;: 2,//强制驼峰法命名
+&quot;comma-dangle&quot;: [2, &quot;never&quot;],//对象字面量项尾不能有逗号
+&quot;comma-spacing&quot;: 0,//逗号前后的空格
+&quot;comma-style&quot;: [2, &quot;last&quot;],//逗号风格，换行时在行首还是行尾
+&quot;complexity&quot;: [0, 11],//循环复杂度
+&quot;computed-property-spacing&quot;: [0, &quot;never&quot;],//是否允许计算后的键名什么的
+&quot;consistent-return&quot;: 0,//return 后面是否允许省略
+&quot;consistent-this&quot;: [2, &quot;that&quot;],//this别名
+&quot;constructor-super&quot;: 0,//非派生类不能调用super，派生类必须调用super
+&quot;curly&quot;: [2, &quot;all&quot;],//必须使用 if(){} 中的{}
+&quot;default-case&quot;: 2,//switch语句最后必须有default
+&quot;dot-location&quot;: 0,//对象访问符的位置，换行的时候在行首还是行尾
+&quot;dot-notation&quot;: [0, { &quot;allowKeywords&quot;: true }],//避免不必要的方括号
+&quot;eol-last&quot;: 0,//文件以单一的换行符结束
+&quot;eqeqeq&quot;: 2,//必须使用全等
+&quot;func-names&quot;: 0,//函数表达式必须有名字
+&quot;func-style&quot;: [0, &quot;declaration&quot;],//函数风格，规定只能使用函数声明/函数表达式
+&quot;generator-star-spacing&quot;: 0,//生成器函数*的前后空格
+&quot;guard-for-in&quot;: 0,//for in循环要用if语句过滤
+&quot;handle-callback-err&quot;: 0,//nodejs 处理错误
+&quot;id-length&quot;: 0,//变量名长度
+&quot;indent&quot;: [2, 4],//缩进风格
+&quot;init-declarations&quot;: 0,//声明时必须赋初值
+&quot;key-spacing&quot;: [0, { &quot;beforeColon&quot;: false, &quot;afterColon&quot;: true }],//对象字面量中冒号的前后空格
+&quot;lines-around-comment&quot;: 0,//行前/行后备注
+&quot;max-depth&quot;: [0, 4],//嵌套块深度
+&quot;max-len&quot;: [0, 80, 4],//字符串最大长度
+&quot;max-nested-callbacks&quot;: [0, 2],//回调嵌套深度
+&quot;max-params&quot;: [0, 3],//函数最多只能有3个参数
+&quot;max-statements&quot;: [0, 10],//函数内最多有几个声明
+&quot;new-cap&quot;: 2,//函数名首行大写必须使用new方式调用，首行小写必须用不带new方式调用
+&quot;new-parens&quot;: 2,//new时必须加小括号
+&quot;newline-after-var&quot;: 2,//变量声明后是否需要空一行
+&quot;object-curly-spacing&quot;: [0, &quot;never&quot;],//大括号内是否允许不必要的空格
+&quot;object-shorthand&quot;: 0,//强制对象字面量缩写语法
+&quot;one-var&quot;: 1,//连续声明
+&quot;operator-assignment&quot;: [0, &quot;always&quot;],//赋值运算符 += -=什么的
+&quot;operator-linebreak&quot;: [2, &quot;after&quot;],//换行时运算符在行尾还是行首
+&quot;padded-blocks&quot;: 0,//块语句内行首行尾是否要空行
+&quot;prefer-const&quot;: 0,//首选const
+&quot;prefer-spread&quot;: 0,//首选展开运算
+&quot;prefer-reflect&quot;: 0,//首选Reflect的方法
+&quot;quotes&quot;: [1, &quot;single&quot;],//引号类型 `` &quot;&quot; ''
+&quot;quote-props&quot;:[2, &quot;always&quot;],//对象字面量中的属性名是否强制双引号
+&quot;radix&quot;: 2,//parseInt必须指定第二个参数
+&quot;id-match&quot;: 0,//命名检测
+&quot;require-yield&quot;: 0,//生成器函数必须有yield
+&quot;semi&quot;: [2, &quot;always&quot;],//语句强制分号结尾
+&quot;semi-spacing&quot;: [0, {&quot;before&quot;: false, &quot;after&quot;: true}],//分号前后空格
+&quot;sort-vars&quot;: 0,//变量声明时排序
+&quot;space-after-keywords&quot;: [0, &quot;always&quot;],//关键字后面是否要空一格
+&quot;space-before-blocks&quot;: [0, &quot;always&quot;],//不以新行开始的块{前面要不要有空格
+&quot;space-before-function-paren&quot;: [0, &quot;always&quot;],//函数定义时括号前面要不要有空格
+&quot;space-in-parens&quot;: [0, &quot;never&quot;],//小括号里面要不要有空格
+&quot;space-infix-ops&quot;: 0,//中缀操作符周围要不要有空格
+&quot;space-return-throw-case&quot;: 2,//return throw case后面要不要加空格
+&quot;space-unary-ops&quot;: [0, { &quot;words&quot;: true, &quot;nonwords&quot;: false }],//一元运算符的前/后要不要加空格
+&quot;spaced-comment&quot;: 0,//注释风格要不要有空格什么的
+&quot;strict&quot;: 2,//使用严格模式
+&quot;use-isnan&quot;: 2,//禁止比较时使用NaN，只能用isNaN()
+&quot;valid-jsdoc&quot;: 0,//jsdoc规则
+&quot;valid-typeof&quot;: 2,//必须使用合法的typeof的值
+&quot;vars-on-top&quot;: 2,//var必须放在作用域顶部
+&quot;wrap-iife&quot;: [2, &quot;inside&quot;],//立即执行函数表达式的小括号风格
+&quot;wrap-regex&quot;: 0,//正则表达式字面量用小括号包起来
+&quot;yoda&quot;: [2, &quot;never&quot;]//禁止尤达条件
+</code></pre></div><h3 id="解决-bus-监听器-on-多次执行"><a href="#解决-bus-监听器-on-多次执行" class="header-anchor">#</a> 解决 Bus 监听器 $on 多次执行</h3> <div class="language- extra-class"><pre class="language-text"><code>方法一：
+beforeDestroy(){
+    this.$bus.$off('method')
+}
+解析：组件销毁时 关闭 监听器
+
+
+方法二：
+缺点：存在 组件 被多个调用，销毁单个 组件时，其他调用者无法触发监听方法
+
+this.$bus.$once('method')
+
+解析：多次触发相同监听方法，只执行一次
+
+
+方法三：
+create(){
+    this.$bus.$off('method')
+}
+解析：及时监听 及时关闭 防止多次执行
+</code></pre></div><h3 id="bus的传参-赋值成功后没有引起页面的同步更新"><a href="#bus的传参-赋值成功后没有引起页面的同步更新" class="header-anchor">#</a> $bus的传参,赋值成功后没有引起页面的同步更新</h3> <div class="language- extra-class"><pre class="language-text"><code>延时emit
+setTimeout(()=&gt;{
+    bus.$emit('method',data)
+},100)
+</code></pre></div><h3 id="vue-router的hash-地址栏中带-号-模式与history模式"><a href="#vue-router的hash-地址栏中带-号-模式与history模式" class="header-anchor">#</a> vue-router的hash（地址栏中带#号）模式与History模式</h3> <ol><li><p>使用hash模式时，URL的地址请求中会带有#号，此模式背后的原理是onHashChange事件，可以在window对象中上监听该事件，同时hash发生变化的URl会被记录下来，从而使浏览器的前进后退都可以使用，这样页面的状态和URL形成了关联，又被称为前端路由，成为单页面应用的标配。</p></li> <li><p>History路由可以分为两大部分（切换和修改），通过HistoryAPI可以丢掉丑陋的【#】号，但是有个问题是不怕前进不怕后退就怕刷新，在hash模式中前端修改的是#中信息，与接口请求地址是无直接关联的，因此在后端毫无准备的情况下，刷新等操作不会出现问题，但是History模式下，URL地址就是接口请求地址，因此在后端毫无准备的情况下进行请求可能会直接出现404页面</p></li></ol> <h3 id="在过滤器filter中调用methods中的方法"><a href="#在过滤器filter中调用methods中的方法" class="header-anchor">#</a> 在过滤器filter中调用methods中的方法</h3> <ol><li><p>定义一个变量</p></li> <li><p>在beforeCreate生命周期将this赋值给that，通过that获得</p></li></ol> <div class="language- extra-class"><pre class="language-text"><code>var vm = new Vue({
+    el: '#app',
+    data: {
+
+    },
+    beforeCreate: function () {
+        that = this
+    },
+    methods:{
+      fom(fmt){
+        ...
+      }
+    },
+    ....,
+    filters: {
+            dateformate: function (val) {
+                return that.fom(&quot;yyyy-MM-dd&quot;)
+        }
+    }
+})
+</code></pre></div><h3 id="vue2-0的八种常用传值方式、父传子、子传父、非父子组件传值"><a href="#vue2-0的八种常用传值方式、父传子、子传父、非父子组件传值" class="header-anchor">#</a> Vue2.0的八种常用传值方式、父传子、子传父、非父子组件传值</h3> <ol><li>父组件向子组件进行传值props</li> <li>子组件向父组件传值$emit,父组件通过子组件的ref属性获取值</li> <li>事件总线 $emit　/ $on</li> <li>利用vuex</li> <li>Vuex与localStorage</li> <li>$attrs　/ $listeners</li> <li>provide/inject</li> <li>$parent / $children　＆ ref</li></ol> <h3 id="methods-watch-computed的"><a href="#methods-watch-computed的" class="header-anchor">#</a> methods,watch,computed的</h3> <ul><li>computed 属性的结果会被缓存，除非依赖的响应式属性变化才会重新计算。主要当作属性来使用；</li> <li>methods 方法表示一个具体的操作，主要书写业务逻辑；</li> <li>watch 一个对象，键是需要观察的表达式，值是对应回调函数。主要用来监听某些特定数据的变化，从而进行某些具体的业务逻辑操作；可以看作是 computed 和 methods 的结合体；</li></ul> <ol><li>Vue的watch属性可以用来监听data属性中数据的变化</li></ol> <div class="language- extra-class"><pre class="language-text"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;script src=&quot;lib/vue.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;lib/vue-router-3.0.1.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;app&quot;&gt;
+      &lt;input type=&quot;text&quot; v-model=&quot;firstname&quot; /&gt;
+    &lt;/div&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+      var vm = new Vue({
+        el:&quot;#app&quot;,
+        data:{
+          firstname:&quot;&quot;,
+          lastname:&quot;&quot;
+        },
+        methods:{},
+        watch:{
+          firstname:function(){
+            console.log(this.firstname)
+          }
+        }
+      })
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div><p>可以从上述代码中实践得知，输入框内的值变化多少次，控制台就会打印多少次</p> <p>同时还可以直接在监听的function中使用参数来获取新值与旧值</p> <div class="language- extra-class"><pre class="language-text"><code>watch:{
+          firstname:function(newValue,OldValue){
+            console.log(newValue);
+            console.log(OldValue);
+          }
+        }
+</code></pre></div><p>其中第一个参数是新值，第二个参数是旧值</p> <p>同时Watch还可以被用来监听路由router的变化，只是这里的监听的元素是固定的</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;script src=&quot;lib/vue.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;lib/vue-router-3.0.1.js&quot;&gt;&lt;/script&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    
+    &lt;div id=&quot;app&quot;&gt;
+      &lt;!--
+        由于Vue-router的hash匹配原则所以我们需要在原定义的路径上加一个#号
+      --&gt;
+&lt;!--      &lt;a href=&quot;#/login&quot; rel=&quot;external nofollow&quot; &gt;登录&lt;/a&gt;
+      &lt;a href=&quot;#/register&quot; rel=&quot;external nofollow&quot; &gt;注册&lt;/a&gt;--&gt;
+      &lt;router-link to=&quot;/login&quot; tag=&quot;span&quot;&gt;登录&lt;/router-link&gt;
+      &lt;router-link to=&quot;/register&quot;&gt;注册&lt;/router-link&gt;
+      &lt;router-view&gt;&lt;/router-view&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+  &lt;script&gt;
+    var login={
+      template:'&lt;h1&gt;登录组件&lt;/h1&gt;'
+    }
+    var register={
+      template:'&lt;h1&gt;注册组件&lt;/h1&gt;'
+    }
+    var routerObj = new VueRouter({
+      routes:[
+      //此处的component只能使用组件对象，而不能使用注册的模板的名称
+        {path:&quot;/login&quot;,component:login},
+        {path:&quot;/register&quot;,component:register}
+      ]
+    })
+    var vm = new Vue({
+      el:'#app',
+      data:{
+      },
+      methods:{
+        
+      },
+      router:routerObj,//将路由规则对象注册到VM实例上
+      watch:{
+        '$route.path':function(newValue,OldValue){
+            console.log(newValue);
+            console.log(OldValue);
+        }
+      }
+    })
+  &lt;/script&gt;
+&lt;/html&gt;
+</code></pre></div><ol start="2"><li>computed属性的作用与watch类似，也可以监听属性的变化</li></ol> <div class="language- extra-class"><pre class="language-text"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;script src=&quot;lib/vue.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;lib/vue-router-3.0.1.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;app&quot;&gt;
+      &lt;input type=&quot;text&quot; v-model=&quot;firstname&quot; /&gt;
+      &lt;input type=&quot;text&quot; v-model=&quot;lastname&quot; /&gt;
+      &lt;input type=&quot;text&quot; v-model=&quot;fullname&quot; /&gt;
+    &lt;/div&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+      var vm = new Vue({
+        el:&quot;#app&quot;,
+        data:{
+          firstname:&quot;&quot;,
+          lastname:&quot;&quot;
+        },
+        methods:{},
+/*       watch:{
+          firstname:function(newValue,OldValue){
+            console.log(newValue);
+            console.log(OldValue);
+          }
+        }*/
+        computed:{
+          fullname:function(){
+            return this.firstname +&quot;-&quot;+this.lastname
+          }
+        }
+      })
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div><p>只是他会根据他依赖的属性，生成一个属性，让vm对象可以使用这个属性</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.96f492b1.js" defer></script><script src="/assets/js/2.66dbf3eb.js" defer></script><script src="/assets/js/84.90051029.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>微信小程序踩坑 | 不如养猪</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.0b8634a2.css" as="style"><link rel="preload" href="/assets/js/app.96f492b1.js" as="script"><link rel="preload" href="/assets/js/2.66dbf3eb.js" as="script"><link rel="preload" href="/assets/js/85.60fd9612.js" as="script"><link rel="prefetch" href="/assets/js/10.29f35ee1.js"><link rel="prefetch" href="/assets/js/11.265a6d83.js"><link rel="prefetch" href="/assets/js/12.be3ad4a5.js"><link rel="prefetch" href="/assets/js/13.92825de4.js"><link rel="prefetch" href="/assets/js/14.801fed1f.js"><link rel="prefetch" href="/assets/js/15.ed44d404.js"><link rel="prefetch" href="/assets/js/16.894e4eae.js"><link rel="prefetch" href="/assets/js/17.f5c6a610.js"><link rel="prefetch" href="/assets/js/18.ecfaa16e.js"><link rel="prefetch" href="/assets/js/19.5a41308e.js"><link rel="prefetch" href="/assets/js/20.7b19bdfa.js"><link rel="prefetch" href="/assets/js/21.dba67286.js"><link rel="prefetch" href="/assets/js/22.8dbfba93.js"><link rel="prefetch" href="/assets/js/23.e6637faa.js"><link rel="prefetch" href="/assets/js/24.b8596bb4.js"><link rel="prefetch" href="/assets/js/25.6b124fb9.js"><link rel="prefetch" href="/assets/js/26.c9eed934.js"><link rel="prefetch" href="/assets/js/27.4db09e73.js"><link rel="prefetch" href="/assets/js/28.fd29e2ec.js"><link rel="prefetch" href="/assets/js/29.ed83544c.js"><link rel="prefetch" href="/assets/js/3.2a78f869.js"><link rel="prefetch" href="/assets/js/30.c6110f5e.js"><link rel="prefetch" href="/assets/js/31.04acb7c8.js"><link rel="prefetch" href="/assets/js/32.d8a706e5.js"><link rel="prefetch" href="/assets/js/33.c9dd757f.js"><link rel="prefetch" href="/assets/js/34.001c9f7a.js"><link rel="prefetch" href="/assets/js/35.70c8320f.js"><link rel="prefetch" href="/assets/js/36.b701bd48.js"><link rel="prefetch" href="/assets/js/37.c5535bd6.js"><link rel="prefetch" href="/assets/js/38.6c023ef6.js"><link rel="prefetch" href="/assets/js/39.3fbb634a.js"><link rel="prefetch" href="/assets/js/4.3a260b89.js"><link rel="prefetch" href="/assets/js/40.68119849.js"><link rel="prefetch" href="/assets/js/41.d1c8b647.js"><link rel="prefetch" href="/assets/js/42.f18871c4.js"><link rel="prefetch" href="/assets/js/43.0f481eb4.js"><link rel="prefetch" href="/assets/js/44.c723d660.js"><link rel="prefetch" href="/assets/js/45.a243f97b.js"><link rel="prefetch" href="/assets/js/46.bae1b2fa.js"><link rel="prefetch" href="/assets/js/47.a6939650.js"><link rel="prefetch" href="/assets/js/48.0a6e0b40.js"><link rel="prefetch" href="/assets/js/49.d78d4878.js"><link rel="prefetch" href="/assets/js/5.e5b70a6f.js"><link rel="prefetch" href="/assets/js/50.c2207988.js"><link rel="prefetch" href="/assets/js/51.c02e92cb.js"><link rel="prefetch" href="/assets/js/52.0da5c049.js"><link rel="prefetch" href="/assets/js/53.a9afe79c.js"><link rel="prefetch" href="/assets/js/54.4869ff1d.js"><link rel="prefetch" href="/assets/js/55.02ee6751.js"><link rel="prefetch" href="/assets/js/56.2ce11524.js"><link rel="prefetch" href="/assets/js/57.af71702c.js"><link rel="prefetch" href="/assets/js/58.7f2c8116.js"><link rel="prefetch" href="/assets/js/59.dfc4c11f.js"><link rel="prefetch" href="/assets/js/6.461cca72.js"><link rel="prefetch" href="/assets/js/60.1eb3781f.js"><link rel="prefetch" href="/assets/js/61.d3a8cc67.js"><link rel="prefetch" href="/assets/js/62.080d1a45.js"><link rel="prefetch" href="/assets/js/63.d1104465.js"><link rel="prefetch" href="/assets/js/64.b8bdfa5b.js"><link rel="prefetch" href="/assets/js/65.5ceabc31.js"><link rel="prefetch" href="/assets/js/66.941ccb5a.js"><link rel="prefetch" href="/assets/js/67.fb3ea3af.js"><link rel="prefetch" href="/assets/js/68.60526390.js"><link rel="prefetch" href="/assets/js/69.a72d14b7.js"><link rel="prefetch" href="/assets/js/7.0393c72b.js"><link rel="prefetch" href="/assets/js/70.7b078821.js"><link rel="prefetch" href="/assets/js/71.f6987480.js"><link rel="prefetch" href="/assets/js/72.80c80aef.js"><link rel="prefetch" href="/assets/js/73.76e06b0f.js"><link rel="prefetch" href="/assets/js/74.4d42b931.js"><link rel="prefetch" href="/assets/js/75.c395c5e0.js"><link rel="prefetch" href="/assets/js/76.06cb3e1a.js"><link rel="prefetch" href="/assets/js/77.2bd145e2.js"><link rel="prefetch" href="/assets/js/78.58a36614.js"><link rel="prefetch" href="/assets/js/79.5cdab7d4.js"><link rel="prefetch" href="/assets/js/8.6da1df49.js"><link rel="prefetch" href="/assets/js/80.a73c2043.js"><link rel="prefetch" href="/assets/js/81.09ccdb1d.js"><link rel="prefetch" href="/assets/js/82.1a2e6378.js"><link rel="prefetch" href="/assets/js/83.02c5c0da.js"><link rel="prefetch" href="/assets/js/84.90051029.js"><link rel="prefetch" href="/assets/js/9.c10387fb.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.0b8634a2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">不如养猪</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/web/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/serve/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/ops/" class="nav-link">
+  运维
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="读书" class="dropdown-title"><span class="title">读书</span> <span class="arrow down"></span></button> <button type="button" aria-label="读书" class="mobile-dropdown-title"><span class="title">读书</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/book1/" class="nav-link">
+  JavaScript精粹
+</a></li><li class="dropdown-item"><!----> <a href="/web/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/.html" class="nav-link">
+  Java Head First
+</a></li><li class="dropdown-item"><!----> <a href="/web/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/.html" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/web/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/.html" class="nav-link">
+  计算机原理
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/web/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/serve/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/ops/" class="nav-link">
+  运维
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="读书" class="dropdown-title"><span class="title">读书</span> <span class="arrow down"></span></button> <button type="button" aria-label="读书" class="mobile-dropdown-title"><span class="title">读书</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/book1/" class="nav-link">
+  JavaScript精粹
+</a></li><li class="dropdown-item"><!----> <a href="/web/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/.html" class="nav-link">
+  Java Head First
+</a></li><li class="dropdown-item"><!----> <a href="/web/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/.html" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/web/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/.html" class="nav-link">
+  计算机原理
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span> JavaScript</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/web/JavaScript/js-cookie.html" class="sidebar-link">js-cookie</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="微信小程序踩坑"><a href="#微信小程序踩坑" class="header-anchor">#</a> 微信小程序踩坑</h1> <h2 id="wx-switchtab"><a href="#wx-switchtab" class="header-anchor">#</a> wx.switchTab</h2> <ul><li><p>不能query传参数	
+解决：使用全局变量或缓存传参</p></li> <li><p>不能触发onlaod</p> <div class="language- extra-class"><pre><code>  wx.switchTab({
+    url: '/pages/index/index',
+    success: function (e) {
+        var page = getCurrentPages().pop();
+        if (page == undefined || page == null) return;
+        page.onLoad();
+    }
+  })
+</code></pre></div></li></ul> <h2 id="长按与点击事件"><a href="#长按与点击事件" class="header-anchor">#</a> 长按与点击事件</h2> <ul><li>点击：touchstart → touchend → tap</li> <li>长按 touchstart → longtap → touchend → tap</li></ul> <h2 id="websocket"><a href="#websocket" class="header-anchor">#</a> webSocket</h2> <ol><li>获取局部网络的地址IP 加上 ws:// 和 3001</li></ol> <blockquote><p>ws://199.213.7.102:3001</p></blockquote> <ol start="2"><li><p>建立客户端和服务器的链接，并且发送消息，监听服务器回发消息</p> <div class="language- extra-class"><pre><code> // wxml
+ &lt;input type=&quot;tex&quot; bindchange=&quot;sendMessage&quot; class=&quot;text&quot; placeholder=&quot;请输入消息&quot;&gt;&lt;/input&gt;
+ 
+ // js
+ //本地服务器地址
+ var wsApi = &quot;ws://199.213.7.102:3001&quot;;
+ var socketOpen==false;
+ 
+ sendMessage:function(e){
+ 	var msg=e.detail.value;
+ 	if (socketOpen) {
+ 		console.log(msg);
+ 		//向服务器发送消息
+ 		wx.sendSocketMessage({
+ 			data: msg
+ 		})
+ 	}
+ },
+ 
+ onLoad: function (options) {
+ 	//建立连接
+ 	wx.connectSocket({
+ 		url: wsApi,
+ 		header: {
+ 		 'content-type': 'application/json'
+ 		},
+ 		//method:&quot;GET&quot;,
+ 		protocols: ['protocol1'],
+ 		success: function () {
+ 			console.log(&quot;客户端连接成功！&quot;);
+ 		 	wx.onSocketOpen(function(){
+ 		  		console.log('webSocket已打开！');
+ 		  		socketOpen=true;
+ 			  	wx.onSocketMessage(function(msg){
+ 			   		console.log(msg);
+ 			  	})
+ 		 	})
+ 		}
+ 	})
+ },
+</code></pre></div></li> <li><p>服务器端使用nodejs配置</p> <ol><li><p>新建 websocket 文件夹，<code>cd websocket`` npm install ws</code>	建立环境</p></li> <li><p>文件夹下创建 server.js 用来编写 nodejs 代码</p> <div class="language- extra-class"><pre><code> //引入ws模块的构造函数
+ var webSocketServer=require(&quot;ws&quot;).Server;
+ 
+ //实例化
+ var wss=new webSocketServer({
+ 	port:3001
+ });
+ 
+ //监听客户端连接
+ wss.on(&quot;connection&quot;,function(ws){
+     console.log(&quot;服务器连接建立成功&quot;);
+     
+     //监听客户端消息
+     ws.on(&quot;message&quot;,function(msg){
+         console.log(msg);
+         
+         // 回发消息
+         ws.send(&quot;来自客户端的消息：&quot;+msg);
+     })
+ });
+</code></pre></div></li></ol></li> <li><p>演示websocket</p> <ol><li><code>node server.js</code> 运行server.js代码</li> <li>小程序中输入消息</li></ol></li></ol> <p>// 手写原生小程序瀑布流</p> <p>var query;</p> <p>async isLeft() {
+const { list, leftList, rightList } = this.data;
+query = wx.createSelectorQuery();
+for (const item of list) {
+leftHeight &lt;= rightHeight ? leftList.push(item) : rightList.push(item); //判断两边高度，来觉得添加到那边
+await this.getBoxHeight(leftList, rightList);
+}
+}</p> <p>//获取左右两边高度
+getBoxHeight(leftList, rightList) {
+return new Promise((resolve, reject) =&gt; {
+this.setData({ leftList, rightList }, () =&gt; {
+query.select('#left').boundingClientRect();
+query.select('#right').boundingClientRect();
+query.exec((res) =&gt; {
+leftHeight = res[0].height; //获取左边列表的高度
+rightHeight = res[1].height; //获取右边列表的高度
+resolve();
+});
+});
+})
+}</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.96f492b1.js" defer></script><script src="/assets/js/2.66dbf3eb.js" defer></script><script src="/assets/js/85.60fd9612.js" defer></script>
+  </body>
+</html>

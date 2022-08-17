@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>FormData | 不如养猪</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.0b8634a2.css" as="style"><link rel="preload" href="/assets/js/app.96f492b1.js" as="script"><link rel="preload" href="/assets/js/2.66dbf3eb.js" as="script"><link rel="preload" href="/assets/js/16.894e4eae.js" as="script"><link rel="prefetch" href="/assets/js/10.29f35ee1.js"><link rel="prefetch" href="/assets/js/11.265a6d83.js"><link rel="prefetch" href="/assets/js/12.be3ad4a5.js"><link rel="prefetch" href="/assets/js/13.92825de4.js"><link rel="prefetch" href="/assets/js/14.801fed1f.js"><link rel="prefetch" href="/assets/js/15.ed44d404.js"><link rel="prefetch" href="/assets/js/17.f5c6a610.js"><link rel="prefetch" href="/assets/js/18.ecfaa16e.js"><link rel="prefetch" href="/assets/js/19.5a41308e.js"><link rel="prefetch" href="/assets/js/20.7b19bdfa.js"><link rel="prefetch" href="/assets/js/21.dba67286.js"><link rel="prefetch" href="/assets/js/22.8dbfba93.js"><link rel="prefetch" href="/assets/js/23.e6637faa.js"><link rel="prefetch" href="/assets/js/24.b8596bb4.js"><link rel="prefetch" href="/assets/js/25.6b124fb9.js"><link rel="prefetch" href="/assets/js/26.c9eed934.js"><link rel="prefetch" href="/assets/js/27.4db09e73.js"><link rel="prefetch" href="/assets/js/28.fd29e2ec.js"><link rel="prefetch" href="/assets/js/29.ed83544c.js"><link rel="prefetch" href="/assets/js/3.2a78f869.js"><link rel="prefetch" href="/assets/js/30.c6110f5e.js"><link rel="prefetch" href="/assets/js/31.04acb7c8.js"><link rel="prefetch" href="/assets/js/32.d8a706e5.js"><link rel="prefetch" href="/assets/js/33.c9dd757f.js"><link rel="prefetch" href="/assets/js/34.001c9f7a.js"><link rel="prefetch" href="/assets/js/35.70c8320f.js"><link rel="prefetch" href="/assets/js/36.b701bd48.js"><link rel="prefetch" href="/assets/js/37.c5535bd6.js"><link rel="prefetch" href="/assets/js/38.6c023ef6.js"><link rel="prefetch" href="/assets/js/39.3fbb634a.js"><link rel="prefetch" href="/assets/js/4.3a260b89.js"><link rel="prefetch" href="/assets/js/40.68119849.js"><link rel="prefetch" href="/assets/js/41.d1c8b647.js"><link rel="prefetch" href="/assets/js/42.f18871c4.js"><link rel="prefetch" href="/assets/js/43.0f481eb4.js"><link rel="prefetch" href="/assets/js/44.c723d660.js"><link rel="prefetch" href="/assets/js/45.a243f97b.js"><link rel="prefetch" href="/assets/js/46.bae1b2fa.js"><link rel="prefetch" href="/assets/js/47.a6939650.js"><link rel="prefetch" href="/assets/js/48.0a6e0b40.js"><link rel="prefetch" href="/assets/js/49.d78d4878.js"><link rel="prefetch" href="/assets/js/5.e5b70a6f.js"><link rel="prefetch" href="/assets/js/50.c2207988.js"><link rel="prefetch" href="/assets/js/51.c02e92cb.js"><link rel="prefetch" href="/assets/js/52.0da5c049.js"><link rel="prefetch" href="/assets/js/53.a9afe79c.js"><link rel="prefetch" href="/assets/js/54.4869ff1d.js"><link rel="prefetch" href="/assets/js/55.02ee6751.js"><link rel="prefetch" href="/assets/js/56.2ce11524.js"><link rel="prefetch" href="/assets/js/57.af71702c.js"><link rel="prefetch" href="/assets/js/58.7f2c8116.js"><link rel="prefetch" href="/assets/js/59.dfc4c11f.js"><link rel="prefetch" href="/assets/js/6.461cca72.js"><link rel="prefetch" href="/assets/js/60.1eb3781f.js"><link rel="prefetch" href="/assets/js/61.d3a8cc67.js"><link rel="prefetch" href="/assets/js/62.080d1a45.js"><link rel="prefetch" href="/assets/js/63.d1104465.js"><link rel="prefetch" href="/assets/js/64.b8bdfa5b.js"><link rel="prefetch" href="/assets/js/65.5ceabc31.js"><link rel="prefetch" href="/assets/js/66.941ccb5a.js"><link rel="prefetch" href="/assets/js/67.fb3ea3af.js"><link rel="prefetch" href="/assets/js/68.60526390.js"><link rel="prefetch" href="/assets/js/69.a72d14b7.js"><link rel="prefetch" href="/assets/js/7.0393c72b.js"><link rel="prefetch" href="/assets/js/70.7b078821.js"><link rel="prefetch" href="/assets/js/71.f6987480.js"><link rel="prefetch" href="/assets/js/72.80c80aef.js"><link rel="prefetch" href="/assets/js/73.76e06b0f.js"><link rel="prefetch" href="/assets/js/74.4d42b931.js"><link rel="prefetch" href="/assets/js/75.c395c5e0.js"><link rel="prefetch" href="/assets/js/76.06cb3e1a.js"><link rel="prefetch" href="/assets/js/77.2bd145e2.js"><link rel="prefetch" href="/assets/js/78.58a36614.js"><link rel="prefetch" href="/assets/js/79.5cdab7d4.js"><link rel="prefetch" href="/assets/js/8.6da1df49.js"><link rel="prefetch" href="/assets/js/80.a73c2043.js"><link rel="prefetch" href="/assets/js/81.09ccdb1d.js"><link rel="prefetch" href="/assets/js/82.1a2e6378.js"><link rel="prefetch" href="/assets/js/83.02c5c0da.js"><link rel="prefetch" href="/assets/js/84.90051029.js"><link rel="prefetch" href="/assets/js/85.60fd9612.js"><link rel="prefetch" href="/assets/js/9.c10387fb.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.0b8634a2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">不如养猪</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/web/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/serve/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/ops/" class="nav-link">
+  运维
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="读书" class="dropdown-title"><span class="title">读书</span> <span class="arrow down"></span></button> <button type="button" aria-label="读书" class="mobile-dropdown-title"><span class="title">读书</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/book1/" class="nav-link">
+  JavaScript精粹
+</a></li><li class="dropdown-item"><!----> <a href="/web/HTTP/.html" class="nav-link">
+  Java Head First
+</a></li><li class="dropdown-item"><!----> <a href="/web/HTTP/.html" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/web/HTTP/.html" class="nav-link">
+  计算机原理
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/web/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/serve/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/ops/" class="nav-link">
+  运维
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="读书" class="dropdown-title"><span class="title">读书</span> <span class="arrow down"></span></button> <button type="button" aria-label="读书" class="mobile-dropdown-title"><span class="title">读书</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/book1/" class="nav-link">
+  JavaScript精粹
+</a></li><li class="dropdown-item"><!----> <a href="/web/HTTP/.html" class="nav-link">
+  Java Head First
+</a></li><li class="dropdown-item"><!----> <a href="/web/HTTP/.html" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/web/HTTP/.html" class="nav-link">
+  计算机原理
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span> JavaScript</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/web/JavaScript/js-cookie.html" class="sidebar-link">js-cookie</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="formdata"><a href="#formdata" class="header-anchor">#</a> FormData</h1> <h2 id="引言"><a href="#引言" class="header-anchor">#</a> 引言</h2> <p>在后端与前端约定好application/json格式传递数据时，因为后台是go强类型语言，在定义api接口时，某些字段要求是整型类型，但是对于前端来说输入框或者从url中的search取到的参数都是字符串，不得不进行前端类型转换。</p> <p>咋一看，对于接口参数比较少的api前端转换没有什么，但是对于一般的交互复杂，参数比较多的接口，要对大部分参数进行类型转换就是一种吃力不讨好的活。好在后端同学还支持另一种的前后端数据交互格式，即multipart/form-data。通过该格式后端取到前端传递的数据就是数字了(即使前端传递的是字符串)，而不像json格式获取的是字符串。这样，就不需要额外对前端获取的数据进行特殊转换了。下面就来说说form-data。</p> <h2 id="form-data请求格式"><a href="#form-data请求格式" class="header-anchor">#</a> form-data请求格式</h2> <p>multipart/form-data是基于post方法来传递数据的，并且其请求内容格式为Content-Type: multipart/form-data,用来指定请求内容的数据编码格式。另外，该格式会生成一个boundary字符串来分割请求头与请求体的，具体的是以一个boundary=${boundary}来进行分割，伪码如下：</p> <div class="language- extra-class"><pre class="language-text"><code>...
+Content-Type: multipart/form-data; boundary=${boundary} 
+ 
+--${boundary}
+...
+...
+ 
+--${boundary}--
+</code></pre></div><p>上面boundary=${boundary}之后就是请求体内容了，请求体内容各字段之间以--${boundary}来进行分割,以--${boundary}--来结束请求体内容。</p> <h2 id="具体可以参考下面例子"><a href="#具体可以参考下面例子" class="header-anchor">#</a> 具体可以参考下面例子：</h2> <div class="language- extra-class"><pre class="language-text"><code>POST http://www.example.com HTTP/1.1
+Content-Type:multipart/form-data; boundary=----WebKitFormBoundaryyb1zYhTI38xpQxBK
+ 
+------WebKitFormBoundaryyb1zYhTI38xpQxBK
+Content-Disposition: form-data; name=&quot;city_id&quot;
+ 
+1
+ 
+------WebKitFormBoundaryyb1zYhTI38xpQxBK
+Content-Disposition: form-data; name=&quot;company_id&quot;
+ 
+2
+------WebKitFormBoundaryyb1zYhTI38xpQxBK
+Content-Disposition: form-data; name=&quot;file&quot;; filename=&quot;chrome.png&quot;
+Content-Type: image/png
+ 
+PNG ... content of chrome.png ...
+------WebKitFormBoundaryyb1zYhTI38xpQxBK--
+</code></pre></div><p>form-data格式一般是用来进行文件上传的。使用表单上传文件时，必须让表单的 enctype 等于 multipart/form-data，因为该值默认值为application/x-www-form-urlencoded。</p> <h2 id="formdata对象"><a href="#formdata对象" class="header-anchor">#</a> FormData对象</h2> <p>XMLHttpRequest Level 2添加了一个新的接口FormData。利用FormData对象，我们可以通过JavaScript用一些键值对来模拟一系列表单控件，我们还可以使用XMLHttpRequest的send()方法来异步的提交这个&quot;表单&quot;</p> <div class="language- extra-class"><pre class="language-text"><code>var formData = new FormData();
+formData.append(&quot;username&quot;, &quot;Groucho&quot;);
+formData.append(&quot;accountnum&quot;, 123456); 
+fetch('/users', {
+ method: 'POST',
+ body: formData
+})
+</code></pre></div><p>上面创建了一个FormData对象，通过fetch进行ajax请求时，会自动为其将其转为form-data格式，无需手动添加格式。</p> <h2 id="对象转formdata对象"><a href="#对象转formdata对象" class="header-anchor">#</a> 对象转FormData对象</h2> <p>对于FormDat对象，像上面那种形式可以直接添加参数比较方便，但是对于对象或者嵌套对象：</p> <p>let userObj = {userName: 'xxx', age: '21'} formData.append('user', userObj)</p> <p>上面形式添加formData参数user，并不会获取到其真正的内容，而是返回userObj的Object.prototype.toString.call(userObj)的值作为user字段的值。</p> <div class="language- extra-class"><pre class="language-text"><code>------WebKitFormBoundaryyb1zYhTI38xpQxBK
+Content-Disposition: form-data; name=&quot;user&quot;
+ 
+[object Object]
+</code></pre></div><p>遗憾的是，FormData对象没有像JSON.stringify那样的方法能批量将对象形式转换为对应的形式，formData而言是将对象的key转换为正确formData请求参数字段名，例如如下对象：</p> <div class="language- extra-class"><pre class="language-text"><code>var obj = {
+  a: '2', 
+  b: {c: 'test'}, 
+  c: [ 
+    {id: 1, name: 'xx'}, 
+    {id:2 ,name: 'yy', info: {d: 4} }
+  ]
+}
+</code></pre></div><p>这样转换为FormData对象时，其对应的key应该是下面这样的：</p> <div class="language- extra-class"><pre class="language-text"><code>a: 2
+b[c]: test
+c[][id]: 1
+c[][name]: xx
+c[][id]: 2
+c[][name]: yy
+c[][info][d]:4
+</code></pre></div><p>这样，就需要我们自己手动来实现一个转换数据函数，具体代码如下：</p> <div class="language- extra-class"><pre class="language-text"><code>function objectToFormData (obj, form, namespace) {
+ const fd = form || new FormData();
+ let formKey;
+  
+ for(var property in obj) {
+   if(obj.hasOwnProperty(property)) {
+    let key = Array.isArray(obj) ? '[]' : `[${property}]`;
+    if(namespace) {
+     formKey = namespace + key;
+    } else {
+     formKey = property;
+    }
+    
+    // if the property is an object, but not a File, use recursivity.
+    if(typeof obj[property] === 'object' &amp;&amp; !(obj[property] instanceof File)) {
+     objectToFormData(obj[property], fd, formKey);
+    } else {
+      
+     // if it's a string or a File object
+     fd.append(formKey, obj[property]);
+    }
+     
+   }
+  }
+  
+ return fd;
+   
+}
+</code></pre></div><p>这样，就可以将对象转化为对应的formData的格式了。</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.96f492b1.js" defer></script><script src="/assets/js/2.66dbf3eb.js" defer></script><script src="/assets/js/16.894e4eae.js" defer></script>
+  </body>
+</html>
